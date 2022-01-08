@@ -1,0 +1,163 @@
+.hidden {
+	display: none;
+}
+
+body {
+	width: 250px;
+	font-family: "Poppins", sans-serif;
+	align-items: center;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		45deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(19, 192, 209, 0.22172619047619047) 0%,
+		rgba(0, 212, 255, 0) 51%
+	);
+}
+
+.list {
+	display: none;
+}
+
+.heading {
+	text-align: center;
+}
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 70px;
+	height: 34px;
+	margin-bottom: 10px;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+input:checked + .slider {
+	background-color: #2196f3;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(36px);
+	-ms-transform: translateX(36px);
+	transform: translateX(36px);
+}
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+.status {
+	align-items: center;
+	text-align: center;
+	padding: 20px;
+}
+
+td {
+	width: 150px;
+	text-align: center;
+	padding: 5px;
+	padding-top: 0;
+}
+
+table {
+	text-align: center;
+}
+
+.activate {
+	color: white;
+	background-color: rgb(29, 187, 29);
+	border: none;
+	padding: 6px;
+	width: 90px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+/* .activate:hover {
+	color: white;
+	border: 1px solid rgb(29, 187, 29);
+	background-color: rgb(29, 187, 29);
+} */
+
+a {
+	text-decoration: none;
+	color: gray;
+	padding: 5px;
+	transition: all 0.5s ease;
+}
+
+a:hover {
+	border-radius: 5px;
+	color: black;
+}
+
+.footlink {
+	margin: 20px;
+}
+
+input[type="text"] {
+	border: 2px solid rgb(255, 119, 119);
+	border-radius: 2px;
+	margin: 10px;
+	margin-right: 0;
+	width: 60%;
+	height: 20px;
+}
+
+.addKey {
+	display: inline-block;
+}
+
+#save {
+	padding: 5px;
+	width: 25%;
+	color: green;
+	border: 1px solid green;
+	transition: all 0.3s ease;
+	background-color: white;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+#save:hover {
+	color: white;
+	border: 1px solid rgb(29, 187, 29);
+	background-color: rgb(29, 187, 29);
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Web Warden",
+  "description": "A new deep learning-based plugin that filters out explicit photos and texts that are inappropriate for youngsters, safeguarding them from indecent content while also allowing parents to monitor and regulate their children's online activities.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons":{
+    "16": "favicon-16x16.png",
+    "32":"favicon-32x32.png",
+    "512":"favicon-512x512.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["en.js","background.js"]
+    },
+
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "run_at": "document_start",
+      "js": ["start.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "password.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "options_ui":{
+    "page":"set_password.html"
+  }
+}
