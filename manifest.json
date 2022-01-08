@@ -1,0 +1,17 @@
+{
+  "name": "Censor",
+  "description": "Censoring Extension!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": ["background.js", "index.js"]
+    }
+  ],
+  "host_permissions": ["<all_urls>"],
+  "permissions": ["scripting", "storage"],
+  "action": {
+    "default_popup": "off.html"
+  }
+}
