@@ -1,6 +1,6 @@
 {
-  "name": "Censor",
-  "description": "Censoring Extension!",
+  "name": "Web Warden",
+  "description": "For a safer online environment",
   "version": "1.0",
   "manifest_version": 3,
   "content_scripts": [
@@ -12,6 +12,6 @@
   "host_permissions": ["<all_urls>"],
   "permissions": ["scripting", "storage"],
   "action": {
-    "default_popup": "off.html"
+    "default_popup": "opt.html"
   }
 }
