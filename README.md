@@ -29,12 +29,11 @@ The extension also replaces the explicit and obscene images within the page with
 
 ## Tech Stacks
 
-- Python
+- Python 
 - JavaScript
-- flask
+- flask (Web Server)
 - HTML
-- AI
-- Deep Learning
+- Deep Learning (Nudity Detection)
 
 ## Challenges we ran into
 
