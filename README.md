@@ -53,4 +53,4 @@ The extension also replaces the explicit and obscene images within the page with
 ## What's next for Web Warden | T131: localhost
 
 - Have additional features such as timer that can be set, which stops the browser when the timer runs out.
-- Some bugs has to be handled.
+- Some edge cases has to be handled.
