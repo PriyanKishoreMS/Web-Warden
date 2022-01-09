@@ -14,9 +14,11 @@ When we were surfing through the social media websites and other blogs, we were 
 
 ## What it does
 
-It replaces all the obsecene words and expressions with some other word that is not harmful, additionally list of user defined words can also be inserted irrespective of language, which will be added to the extension's list of harmful words.
+The extension replaces all the obsecene words and expressions with the word "peace", additionally list of user defined words can also be inserted irrespective of language, which will be added to the extension's list of harmful words.
 <br>
-It replaces all the explicit and harmful images within the page with random images that are not harmful.
+The extension also replaces the explicit and obscene images within the page with random images of nature and art, making the dream of kid-friendly internet a reality.
+
+
 
 ## How we built it
 
