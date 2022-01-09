@@ -10,47 +10,46 @@ Official Repository for DotSlash 5.0 Submission of Team 131: localhost.
 
 ## Inspiration
 
-When we were surfing through the social media websites and other blogs, we were exposed to some of the NSFW content in the form of posts or ads, for which we ourselves didn't feel comfortable and wondered what if these contents that disturb even the adults were exposed to kids. So, we came up with an idea to filter out the explicit content from the internet without blocking the entire site or the post.
+When we were surfing through social media websites and other blogs, we came across some NSFW content in the form of posts or ads that made us uncomfortable, and we wondered what would happen if these disturbing contents were exposed to children. As a result, we devised a method of filtering explicit content from the internet without blocking the entire site or post.
 
 ## What it does
 
-The extension replaces all the obsecene words and expressions with the word "peace", additionally list of user defined words can also be inserted irrespective of language, which will be added to the extension's list of harmful words.
+The extension replaces all obscene words and expressions with the word "peace," and a list of user-defined words, regardless of language, can be inserted and added to the extension's list of harmful words.
 <br>
-The extension also replaces the explicit and obscene images within the page with random images of nature and art, making the dream of kid-friendly internet a reality.
-
-
+The extension also substitutes random images of nature and art for explicit and obscene images on the page, making the dream of a kid-friendly internet a reality.
 
 ## How we built it
 
-- Having all the harmful keywords and match all those words in the web page and replace those with that of the given safer word.
-- Getting words from the user and put it to the array of the harful words
-- Getting the link of all the images in the web page and send it to the server, where a deep learning ai model finds whether the image is safe or not. The link of the image is replaced, if the ai reviewed image is unsafe
-- The extension has an authentication setup, where a password can be set while installing the extension, and will need password for subsequent use of the extension. This is done to have the kid away from switching it off or making modifications
+- Having all of the harmful keywords and matching them to all of the words on the web page and replacing them with the safer word.
+- Obtaining words from the user and adding them to the list of obnoxious words
+- Obtaining the links to all of the images on the web page and sending them to the server, where a deep learning artificial intelligence model determines whether or not the image is safe. If the ai reviewed image is unsafe, the image link is replaced.
+- The extension has an authentication setup, in which a password can be set during installation, and the extension will require the password for subsequent use. This is done to keep the child from turning it off or making changes.
 
 ## Tech Stacks
 
-- Python 
+- Python
 - JavaScript
-- flask (Web Server)
+- flask
 - HTML
-- Deep Learning (Nudity Detection)
+- AI
+- Deep Learning
 
 ## Challenges we ran into
 
-- After completing the project as separate tasks, it was very hard to integrate them into one extension and properly connect it to the frontend ui
-- The extension broke some websites, it was a challenge to handle those cases
+- It was extremely difficult to combine the projects into one extension and properly connect it to the frontend ui after they were completed as separate tasks.
+- Some websites were broken as a result of the extension, and dealing with those situations was difficult.
 
 ## Accomplishments that we're proud of
 
-- We made a fully working extension with a user-friendly ui that fulfilled our objective which is to filter out the explicit content
-- Full-fledged Hackathon experience and close to 24 hours of continuous coding.
+- We created a fully functional extension with a user-friendly user interface that achieved our goal of filtering out explicit content.
+- We had a full Hackathon experience with close to 24 hours of continuous coding.
 
 ## What we learned
 
-- We always doubted on our abililty to execute things and about bringing ideas to working prototypes. We learned to work as a team and discuss things that are required to complete the objective and were able to do it more efficiently that we thought we could.
-- This is the first extension that we are making, so we learned a lot about extensions and about the chrome development scope
+- We had always doubted our ability to carry out plans and turn concepts into workable prototypes. We learnt to work as a team and discuss the steps necessary to finish the task, and we were able to do it more quickly than we anticipated.
+- This is our first extension, so we've learnt a lot about extensions and the Chrome development environment.
 
 ## What's next for Web Warden | T131: localhost
 
 - Have additional features such as timer that can be set, which stops the browser when the timer runs out.
-- Some edge cases has to be handled.
+- Some bugs has to be handled.
