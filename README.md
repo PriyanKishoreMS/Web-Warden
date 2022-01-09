@@ -10,7 +10,7 @@ Official Repository for DotSlash 5.0 Submission of Team 131: localhost.
 
 ## Inspiration
 
-When we were surfing through the social media websites and other blogs, we were exposed to some of the nsfw content in the form of posts or ads, for which we ourselves didn't feel comfortable and wondered what if these contents that disturb even the adults were exposed to kids or adolescents. So, we came up with an idea to filter out the explicit content from the internet without blocking the entire site or the post.
+When we were surfing through the social media websites and other blogs, we were exposed to some of the NSFW content in the form of posts or ads, for which we ourselves didn't feel comfortable and wondered what if these contents that disturb even the adults were exposed to kids. So, we came up with an idea to filter out the explicit content from the internet without blocking the entire site or the post.
 
 ## What it does
 
