@@ -9,6 +9,7 @@ Official Repository for DotSlash 5.0 Submission of Team 131: localhost.
     * Priyan Kishore
     * Sreeram K L
     * Aaryan Deshpande
+    * Surya Prasath
 
 ## Inspiration
 
